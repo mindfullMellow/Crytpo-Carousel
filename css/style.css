@@ -1,0 +1,19 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --background-color: #fff3b0;
+  --text-color: #0a0908;
+}
+
+body,
+h1 {
+  background-color: var(--background-color);
+}
