@@ -15,4 +15,4 @@ def download_crypto_image(coin_id, save_as="crypto.png"):
         print("Coin not found or API error.")
 
 # Example usage
-download_crypto_image("solana", "solana.png")
+download_crypto_image("dogwifhat", "dogwifhat.png")
