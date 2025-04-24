@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'inter', sans-serif;
+  color: var(--text-color);
 }
 
 html {
@@ -11,9 +13,56 @@ html {
 :root {
   --background-color: #fff3b0;
   --text-color: #0a0908;
+  --accent-color-1: #4c443e;
 }
 
-body,
-h1 {
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
   background-color: var(--background-color);
+}
+
+.carousel {
+  position: relative;
+  max-width: 90rem;
+  width: 100%;
+  background-color: #fff;
+  padding: 5rem 2.5rem;
+}
+
+.caro-slide {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.caro--1 h1 {
+  text-transform: uppercase;
+  font-size: 2.4rem;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 3.0rem;
+  letter-spacing: 0.2px;
+}
+
+.caro--1 img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 50%;
+  padding-bottom: 1.2rem;
+}
+
+.caro--1 h3 {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-align: center;
+}
+
+.caro--1 h3 span {
+  font-size: inherit;
+  color: var(--accent-color-1);
 }
