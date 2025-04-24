@@ -6,6 +6,10 @@
   color: var(--text-color);
 }
 
+.flex {
+  display: flex;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -14,6 +18,7 @@ html {
   --background-color: #fff3b0;
   --text-color: #0a0908;
   --accent-color-1: #4c443e;
+  --accent-color-2: #423c37;
 }
 
 body {
@@ -40,6 +45,12 @@ body {
   align-items: center;
 }
 
+/* 
+//////////////////////////////////////
+CARO--1
+/////////////////////////////////////
+*/
+
 .caro--1 h1 {
   text-transform: uppercase;
   font-size: 2.4rem;
@@ -65,4 +76,63 @@ body {
 .caro--1 h3 span {
   font-size: inherit;
   color: var(--accent-color-1);
+}
+
+/* 
+//////////////////////////////////////
+CARO--2
+/////////////////////////////////////
+*/
+
+.caro--2 {
+  display: flex;
+  gap: 2.4rem;
+  /* justify-content: center; */
+}
+
+.caro--2-a {
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 1.2rem;
+  gap: 2.4rem;
+  flex: 1;
+}
+
+.caro--2-a p {
+  font-size: 1.6rem;
+  line-height: 1.2;
+  letter-spacing: 0.1px;
+  font-weight: 500;
+  color: var(--accent-color-2);
+}
+
+/* .tags {
+  gap: 1.2rem;
+} */
+
+.tags span {
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 0.6rem 1.2rem;
+  margin-right: 1.2rem;
+  margin-bottom: 1.4rem;
+  background-color: #d7cfca;
+  border-radius: 1.6rem;
+}
+
+.caro--2-b {
+  flex: 1;
+  padding: 1.2rem;
+}
+
+.caro--2-b ul {
+  gap: 1.4rem;
+  flex-direction: column;
+}
+
+ul p {
+  font-size: 1.6rem;
+  font-weight: 600;
 }
