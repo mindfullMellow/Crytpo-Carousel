@@ -107,9 +107,7 @@ CARO--2
   color: var(--accent-color-2);
 }
 
-/* .tags {
-  gap: 1.2rem;
-} */
+
 
 .tags span {
   display: inline-block;
