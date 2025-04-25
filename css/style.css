@@ -35,13 +35,14 @@ body {
   position: relative;
   max-width: 90rem;
   width: 100%;
+  overflow: hidden;
   padding: 5rem 2.5rem;
 }
 
 .caro-slide {
   display: flex;
   flex-direction: column;
-  gap: 3.2rem;
+
   justify-content: center;
   align-items: center;
 }
@@ -61,11 +62,17 @@ CARO--1
   letter-spacing: 0.2px;
 }
 
+.caro--1 div {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
 .caro--1 img {
   height: 15rem;
   width: 15rem;
   border-radius: 50%;
-  padding-bottom: 1.2rem;
 }
 
 .caro--1 h3 {
@@ -88,7 +95,9 @@ CARO--2
 .caro--2 {
   display: grid;
   grid-template-columns: 2fr 1fr;
+  align-items: start;
   gap: 2.4rem;
+  margin-top: 4.8rem;
 }
 
 .caro--2-a {
@@ -123,6 +132,7 @@ CARO--2
 .caro--2-b {
   /* flex: 1; */
   padding: 1.2rem;
+  justify-self: end;
 }
 
 .caro--2-b ul {
