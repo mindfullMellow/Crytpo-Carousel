@@ -105,7 +105,6 @@ CARO--2
   flex-direction: column;
   padding: 1.2rem;
   gap: 2.4rem;
-  /* flex: 1; */
 }
 
 .caro--2-a p {
@@ -130,7 +129,6 @@ CARO--2
 }
 
 .caro--2-b {
-  /* flex: 1; */
   padding: 1.2rem;
   justify-self: end;
 }
@@ -149,9 +147,6 @@ ul li {
   display: flex;
   gap: 0.6rem;
   align-items: center;
-  /* justify-content: right; */
-
-  /* margin-left: 12rem; */
 }
 
 ul li span {
