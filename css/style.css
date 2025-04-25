@@ -29,20 +29,18 @@ body {
   align-items: center;
   height: 100vh;
   background-color: var(--background-color);
+  position: relative;
   overflow: hidden;
 }
 
 .carousel {
-  position: relative;
+
   max-width: 90rem;
   width: 100%;
   overflow: hidden;
   padding: 5rem 2.5rem;
 }
 
-/* .caro-content {
-  overflow: hidden;
-} */
 
 .caro-slide {
   display: flex;
@@ -166,6 +164,7 @@ ul li span {
   font-weight: 400;
   color: var(--accent-color-1);
 }
+
 
 /* DAILY CAHNGE COLORS */
 .cc-red {
