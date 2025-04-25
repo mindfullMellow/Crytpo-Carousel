@@ -16,6 +16,7 @@ html {
 
 :root {
   --background-color: #fff3b0;
+  --caro-content-color: #f7f5f4;
   --text-color: #0a0908;
   --accent-color-1: #4c443e;
   --accent-color-2: #423c37;
@@ -34,7 +35,6 @@ body {
   position: relative;
   max-width: 90rem;
   width: 100%;
-  background-color: #fff;
   padding: 5rem 2.5rem;
 }
 
@@ -86,7 +86,8 @@ CARO--2
 */
 
 .caro--2 {
-  display: flex;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
   gap: 2.4rem;
 }
 
@@ -95,7 +96,7 @@ CARO--2
   flex-direction: column;
   padding: 1.2rem;
   gap: 2.4rem;
-  flex: 1;
+  /* flex: 1; */
 }
 
 .caro--2-a p {
@@ -120,7 +121,7 @@ CARO--2
 }
 
 .caro--2-b {
-  flex: 1;
+  /* flex: 1; */
   padding: 1.2rem;
 }
 
@@ -132,4 +133,37 @@ CARO--2
 ul p {
   font-size: 1.6rem;
   font-weight: 600;
+}
+
+ul li {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+  /* justify-content: right; */
+
+  /* margin-left: 12rem; */
+}
+
+ul li span {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--accent-color-1);
+}
+
+/* DAILY CAHNGE COLORS */
+.cc-red {
+  color: #cd3a3a !important;
+}
+
+.cc-red::after {
+  content: '↓' !important;
+}
+
+
+.cc-green {
+  color: #168735 !important;
+}
+
+.cc-green::after {
+  content: '↑' !important;
 }

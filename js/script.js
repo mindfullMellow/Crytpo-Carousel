@@ -2,6 +2,7 @@
 fetch("https://solana-wallet-generator-backend-folder.onrender.com/crypto-data")
   .then((res) => res.json())
   .then((data) => {
+    console.log(data);
     // Loop through each coin's data
     Object.keys(data).forEach((crypto) => {
       const priceData = data[crypto];
