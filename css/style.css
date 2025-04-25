@@ -29,6 +29,7 @@ body {
   align-items: center;
   height: 100vh;
   background-color: var(--background-color);
+  overflow: hidden;
 }
 
 .carousel {
@@ -38,6 +39,10 @@ body {
   overflow: hidden;
   padding: 5rem 2.5rem;
 }
+
+/* .caro-content {
+  overflow: hidden;
+} */
 
 .caro-slide {
   display: flex;
@@ -93,18 +98,20 @@ CARO--2
 */
 
 .caro--2 {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  align-items: start;
+  display: flex;
   gap: 2.4rem;
   margin-top: 4.8rem;
+  align-items: start;
 }
+
+
 
 .caro--2-a {
   justify-content: center;
   flex-direction: column;
   padding: 1.2rem;
   gap: 2.4rem;
+  flex: 2;
 }
 
 .caro--2-a p {
@@ -112,7 +119,12 @@ CARO--2
   line-height: 1.2;
   letter-spacing: 0.1px;
   font-weight: 500;
+  text-align: center;
   color: var(--accent-color-2);
+}
+
+.tags {
+  margin: 0 auto;
 }
 
 
@@ -130,7 +142,7 @@ CARO--2
 
 .caro--2-b {
   padding: 1.2rem;
-  justify-self: end;
+  flex: 1;
 }
 
 .caro--2-b ul {
