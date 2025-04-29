@@ -143,3 +143,28 @@ var swiper = new Swiper(".mySwiper", {
   mousewheel: true,
   keyboard: true,
 });
+
+///////////////////////////////////////////
+//code to change the background color of each slide
+
+const slides = document.querySelectorAll(".slide");
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        if (entry.target.dataset.index === "1") {
+          document.body.style.backgroundColor = "lightblue"; // Background for 2nd slide
+        } else {
+          document.body.style.backgroundColor = "#fff3b0"; // Background for other slides
+        }
+      }
+    });
+  },
+  { threshold: 0.1 } // Trigger when 50% of the slide is visible
+);
+
+slides.forEach((slide, index) => {
+  slide.dataset.index = index; // Add a custom index to each slide
+  observer.observe(slide); // Start observing each slide
+});
