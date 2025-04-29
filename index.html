@@ -20,7 +20,7 @@
 </head>
 
 <body>
-  <div class="carousel mySwiper">
+  <div class="carousel mySwiper  Swiper">
     <div class="caro-content swiper-wrapper">
       <div class="caro-slide swiper-slide">
         <div class="caro--1">
@@ -51,8 +51,8 @@
           </div>
 
 
-          <!-- <div class="caro--2-b">
-            <ul class="flex">
+          <div class="caro--2-b">
+            <ul>
               <li>
                 <p>Price:</p>
                 <span class="bitcoin-price"></span>
@@ -86,86 +86,161 @@
                 <span class="bitcoin-atl"></span>
               </li>
             </ul>
-          </div> -->
+            <ul aria-hidden="true">
+              <li>
+                <p>Price:</p>
+                <span class="bitcoin-price"></span>
+              </li>
+
+              <li>
+                <p>24hr Change:</p>
+                <span class="bitcoin-change"></span>
+              </li>
+
+              <li>
+                <p>Market Cap:</p>
+                <span class="bitcoin-marketcap"></span>
+              </li>
+
+              <li>
+                <p>Total supply:</p>
+                <span class="bitcoin-supply"></span>
+              </li>
+
+              <li>
+                <p>Market Dominance:</p>
+                <span class="bitcoin-dominance"></span>
+              </li>
+              <li>
+                <p>All-Time-High:</p>
+                <span class="bitcoin-ath"></span>
+              </li>
+              <li>
+                <p>All-Time-Low:</p>
+                <span class="bitcoin-atl"></span>
+              </li>
+            </ul>
+
+
+          </div>
         </div>
 
 
       </div>
+
       <div class="caro-slide swiper-slide">
         <div class="caro--1">
-          <h1>Bitcoin</h1>
+          <h1>Ethereum</h1>
           <div class="flex">
-            <img src="imgs/bitcoin.png" alt="An image of bitcoin">
-            <h3>Rank: <span class="bitcoin-rank"></span></h3>
+            <img src="imgs/ethereum.png" alt="An image of ethereum">
+            <h3>Rank: <span class="ethereum-rank"></span></h3>
           </div>
 
         </div>
-
         <div class="caro--2">
           <div class="caro--2-a flex">
-            <p>Bitcoin is the first cryptocurrency. It was made to let people send money to each other without using
-              banks. It’s called
-              <strong> "digital gold"</strong> because many people use it to store value and protect their money from
-              inflation.
+            <p>Ethereum is a powerful blockchain platform that lets developers build smart contracts, NFTs, games, and
+              decentralized
+              apps (dApps). It was launched in 2015 and is the second-biggest crypto after Bitcoin. Ethereum is moving
+              toward better
+              speed and lower fees with upgrades like Ethereum 2.0.
             </p>
 
             <div class="tags ">
-              <span>Digital Gold</span>
-              <span>Store of Value</span>
+              <span>Smart contracts</span>
               <span>Decentralized</span>
-              <span>Layer 1</span>
-              <span>Crypto</span>
-              <span>Anti Inflation</span>
+              <span>Crypto Liquidity</span>
+              <span>Defi money</span>
+              <span>Defi Ecosystem</span>
+              <span>Blockchain</span>
             </div>
           </div>
 
 
-          <!-- <div class="caro--2-b">
-            <ul class="flex">
+          <div class="caro--2-b">
+            <ul class="paused">
               <li>
                 <p>Price:</p>
-                <span class="bitcoin-price"></span>
+                <span class="ethereum-price"></span>
               </li>
 
               <li>
                 <p>24hr Change:</p>
-                <span class="bitcoin-change"></span>
+                <span class="ethereum-change"></span>
               </li>
 
               <li>
                 <p>Market Cap:</p>
-                <span class="bitcoin-marketcap"></span>
+                <span class="ethereum-marketcap"></span>
               </li>
 
               <li>
                 <p>Total supply:</p>
-                <span class="bitcoin-supply"></span>
+                <span class="ethereum-supply"></span>
               </li>
 
               <li>
                 <p>Market Dominance:</p>
-                <span class="bitcoin-dominance"></span>
+                <span class="ethereum-dominance"></span>
               </li>
               <li>
                 <p>All-Time-High:</p>
-                <span class="bitcoin-ath"></span>
+                <span class="ethereum-ath"></span>
               </li>
               <li>
                 <p>All-Time-Low:</p>
-                <span class="bitcoin-atl"></span>
+                <span class="ethereum-atl"></span>
               </li>
             </ul>
-          </div> -->
+            <ul class="paused" aria-hidden="true">
+              <li>
+                <p>Price:</p>
+                <span class="ethereum-price"></span>
+              </li>
+
+              <li>
+                <p>24hr Change:</p>
+                <span class="ethereum-change"></span>
+              </li>
+
+              <li>
+                <p>Market Cap:</p>
+                <span class="ethereum-marketcap"></span>
+              </li>
+
+              <li>
+                <p>Total supply:</p>
+                <span class="ethereum-supply"></span>
+              </li>
+
+              <li>
+                <p>Market Dominance:</p>
+                <span class="ethereum-dominance"></span>
+              </li>
+              <li>
+                <p>All-Time-High:</p>
+                <span class="ethereum-ath"></span>
+              </li>
+              <li>
+                <p>All-Time-Low:</p>
+                <span class="ethereum-atl"></span>
+              </li>
+            </ul>
+
+
+          </div>
         </div>
 
 
       </div>
 
+
     </div>
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next nav-btn"></div>
+    <div class="swiper-button-prev nav-btn"></div>
     <div class="swiper-pagination"></div>
   </div>
+
   <!-- JAVASCRIPT LINK -->
   <script src="js/script.js" defer></script>
   <!-- Swiper JS -->

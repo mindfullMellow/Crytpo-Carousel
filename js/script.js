@@ -132,15 +132,14 @@ fetch("https://solana-wallet-generator-backend-folder.onrender.com/crypto-data")
 ///////////////////////////////////////////
 //SWIPER FRAMEWORK CODE
 var swiper = new Swiper(".mySwiper", {
-  slidesPerView: 1,
-  spaceBetween: 30,
-  loop: true,
-  pagination: {
-    el: ".swiper-pagination",
-    clickable: true,
-  },
+  cssMode: true,
   navigation: {
     nextEl: ".swiper-button-next",
     prevEl: ".swiper-button-prev",
   },
+  pagination: {
+    el: ".swiper-pagination",
+  },
+  mousewheel: true,
+  keyboard: true,
 });

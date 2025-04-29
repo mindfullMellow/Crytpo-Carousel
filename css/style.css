@@ -29,12 +29,10 @@ body {
   align-items: center;
   height: 100vh;
   background-color: var(--background-color);
-  position: relative;
-  overflow: hidden;
 }
 
 .carousel {
-
+  position: relative;
   max-width: 90rem;
   width: 100%;
   overflow: hidden;
@@ -43,11 +41,11 @@ body {
 
 
 .caro-slide {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-
   justify-content: center;
-  align-items: center;
+  align-items: center; */
+  padding: 5.2rem;
 }
 
 /* 
@@ -97,9 +95,10 @@ CARO--2
 
 .caro--2 {
   display: flex;
+  flex-direction: column;
   gap: 2.4rem;
   margin-top: 4.8rem;
-  align-items: start;
+  /* align-items: start; */
 }
 
 
@@ -108,14 +107,13 @@ CARO--2
   justify-content: center;
   flex-direction: column;
   padding: 1.2rem;
-  gap: 2.4rem;
-  flex: 2;
+  gap: 4.8rem;
 }
 
 .caro--2-a p {
-  font-size: 1.6rem;
-  line-height: 1.2;
-  letter-spacing: 0.1px;
+  font-size: 1.8rem;
+  line-height: 1.5;
+  letter-spacing: 0.2px;
   font-weight: 500;
   text-align: center;
   color: var(--accent-color-2);
@@ -133,19 +131,38 @@ CARO--2
   font-weight: 600;
   padding: 0.6rem 1.2rem;
   margin-right: 1.2rem;
-  margin-bottom: 1.4rem;
   background-color: var(--tag-color);
   border-radius: 1.6rem;
 }
 
 .caro--2-b {
-  padding: 1.2rem;
-  flex: 1;
+  display: flex;
+  padding-block: 0.8rem;
+  overflow: hidden;
+  user-select: none;
+  gap:
+    2rem;
 }
 
 .caro--2-b ul {
-  gap: 1.4rem;
-  flex-direction: column;
+  list-style: none;
+  flex-shrink: 0;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  animation: scroll 30s linear infinite;
+}
+
+.paused:hover {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-100% - 20px));
+  }
 }
 
 ul p {
@@ -164,6 +181,7 @@ ul li span {
   font-weight: 400;
   color: var(--accent-color-1);
 }
+
 
 
 /* DAILY CAHNGE COLORS */
