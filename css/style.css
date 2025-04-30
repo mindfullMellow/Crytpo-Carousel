@@ -31,7 +31,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   background-color: var(--background-color);
   transition: background-color 0.5s ease-in-out;
   /* Smooth transition for background color */
@@ -49,7 +49,7 @@ body {
 
 
 .slide {
-  height: 100vh;
+  /* height: 100vh; */
   /* Ensure the slide fills the full screen */
   width: 100%;
   padding: 5.2rem;
