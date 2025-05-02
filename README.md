@@ -53,4 +53,6 @@ Pull requests are welcome. For major changes, please open an issue first.
 This project is open-sourced and available under the
 MIT license
 
-[Created by Daniel Samuel Emeka](https://github.com/mindfulmello)
+---
+
+**Created by** [Daniel Samuel Emeka](https://github.com/mindfulmello)
