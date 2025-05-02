@@ -9,7 +9,7 @@ This is a carousel that contains the details, tokenomics and tags of my favourit
 - Easy to use
 - Displays live market tokenomics
 - Only used on bigger screens (i.e laptops and computers)
-- NOT RESPONSIVE
+- **NOT RESPONSIVE**
 
 ## 📦 Tech Stacks
 
@@ -32,7 +32,7 @@ The live market tokenomic data of each cryptocurrency on this carousel is fecth 
 
 - The server pulls the data from coingecko API and make them available to the frontend through Javascript
 - For privacy reasons the Python server isn't open-sourced
-- It is hosted on render
+- It is hosted on **render**
 - To view the python code, please open an issue and the code will be sent to you privately
 
 ## 🖥️ Desktop View
@@ -42,7 +42,7 @@ The live market tokenomic data of each cryptocurrency on this carousel is fecth 
 
 ## 🛑 Important Notes
 
-If for any reason you shoose to invest in any of the currencies displayed on this site... Please DYOR before investing. THE FINANCIAL MARKET IS A VOLATILE ONE... "BE CAREFUL WITH YOUR INVESTMENTS"
+If for any reason you shoose to invest in any of the currencies displayed on this site... Please DYOR before investing. **THE FINANCIAL MARKET IS A VOLATILE ONE... "BE CAREFUL WITH YOUR INVESTMENTS"**
 
 ## 🤝 Contributing
 
