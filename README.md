@@ -39,3 +39,18 @@ The live market tokenomic data of each cryptocurrency on this carousel is fecth 
 
 - This site is fully optimized for Desktop view
 - Smaller screen haven't been optimized but i plan on doing that by the next upgrade (pls..bear with me 🙏)
+
+## 🛑 Important Notes
+
+If for any reason you shoose to invest in any of the currencies displayed on this site... Please DYOR before investing. THE FINANCIAL MARKET IS A VOLATILE ONE... "BE CAREFUL WITH YOUR INVESTMENTS"
+
+## 🤝 Contributing
+
+Pull requests are welcome. For major changes, please open an issue first.
+
+## 📄 License
+
+This project is open-sourced and available under the
+MIT license
+
+[Created by Daniel Samuel Emeka](https://github.com/mindfulmello)
