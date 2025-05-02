@@ -6,16 +6,16 @@ This is a carousel that contains the details, tokenomics and tags of my favourit
 
 ## 🚀 Features
 
--Easy to use
--Displays live market tokenomics
--Only used on bigger screens (i.e laptops and computers)
--NOT RESPONSIVE
+- Easy to use
+- Displays live market tokenomics
+- Only used on bigger screens (i.e laptops and computers)
+- NOT RESPONSIVE
 
 ## 📦 Tech Stacks
 
--HTML
--CSS(for styling)
--SWIPER js framework (for pagination effect)
--JAVASCRIPT (ES15)
--Hosted PYTHON server for fetching live market data
--PYTHON file (app.py) to fetch each cryptocurrency profile pic
+- HTML
+- CSS(for styling)
+- SWIPER js framework (for pagination effect)
+- JAVASCRIPT (ES15)
+- Hosted PYTHON server for fetching live market data
+- PYTHON file (app.py) to fetch each cryptocurrency profile pic
