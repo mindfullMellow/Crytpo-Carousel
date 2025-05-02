@@ -19,3 +19,9 @@ This is a carousel that contains the details, tokenomics and tags of my favourit
 - JAVASCRIPT (ES15)
 - Hosted PYTHON server for fetching live market data
 - PYTHON file (app.py) to fetch each cryptocurrency profile pic
+
+## 🔧 How It Works
+
+1. Click on the website link
+2. Refresh the browser if the live market data are still not displayed (not my fault.. its all on render)
+3. Scroll endlessly to view the top Cryptocurrency on my watchlist..maybe add them to your portfoilo (THIS IS NOT A FINANCIAL ADVICE )
