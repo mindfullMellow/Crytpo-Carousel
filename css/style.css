@@ -158,9 +158,7 @@ CARO--2
   animation: scroll 30s linear infinite;
 }
 
-.paused:hover {
-  animation-play-state: paused;
-}
+
 
 @keyframes scroll {
   to {
