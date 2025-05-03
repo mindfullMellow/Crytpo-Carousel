@@ -143,34 +143,3 @@ var swiper = new Swiper(".mySwiper", {
   mousewheel: true,
   keyboard: true,
 });
-
-///////////////////////////////////////////
-//code to change the background color of each slide
-/*
-const slides = document.querySelectorAll(".slide");
-
-//refactoring codes with functions
-
-const observer = new IntersectionObserver(
-  (entries) => {
-    entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        if (entry.target.dataset.index === "1") {
-          document.body.style.backgroundColor = "#8ecae6"; // Background for 2nd slide
-          const spans = entry.target.querySelectorAll(".tags span");
-          spans.forEach((span) => {
-            span.style.backgroundColor = "#d9e1ec";
-            span.style.color = "#2b2d3b";
-          });
-        } else if (entry.target.dataset.index === "2") {
-          document.body.style.backgroundColor = "#49be96";
-        } else {
-          document.body.style.backgroundColor = "#fff3b0"; // Background for other slides
-        }
-      }
-    });
-  },
-  { threshold: 0.1 } // Trigger when 50% of the slide is visible
-);
-
-slides.*/
